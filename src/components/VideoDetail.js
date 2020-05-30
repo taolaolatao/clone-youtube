@@ -8,7 +8,7 @@ const VideoDetail = ({ video }) => {
 
   return (
     <>
-      <Paper elevation={6} style={{ height: '15%' }}>
+      <Paper elevation={6} style={{ height: '20%' }}>
         <iframe frameBorder="0" width="100%" height="100%" src={videoUrl} title="Video Detail" />
       </Paper>
       <Paper elevation={6} style={{ padding: '15px' }}>
